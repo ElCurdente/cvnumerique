@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CV Intéractif - Jules Mesnil</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="font-awesome.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+</head>
+
+<body>
+  <!---------------------------Header----------------------->
+  <header id="header">
+    <a href="#logo" class="logo">Jules Mesnil</a>
+    <ul>
+      <!-- <div id="marker"></div> -->
+      <li><a href="#quisuisje" onclick="toggle()">Qui-suis-je ?</a></li>
+      <li><a href="#parcours" onclick="toggle()">Parcours</a></li>
+      <li><a href="#competences" onclick="toggle()">Compétences</a></li>
+      <li><a href="#interets" onclick="toggle()">Intérêts</a></li>
+      <li><a href="#projets" onclick="toggle()">Projets</a></li>
+      <li><a href="#contact" onclick="toggle()">Contact</a></li>
+    </ul>
+    <div class="toggle" id="toggle" onclick="toggle()"></div>
+
+  </header>
+
+  <!---------------------------Page d'accueil-------------------------->
+  <section id="logo">
+    <div class="img">
+      <h1>Jules Mesnil</h1>
+    </div>
+    <div class="paysage">
+      <div class="oiseaug1"></div>
+      <div class="oiseaur1"></div>
+      <div class="oiseaug2"></div>
+      <div class="oiseaur2"></div>
+      <div class="oiseaug3"></div>
+      <div class="oiseaur3"></div>
+      <div class="montagne"></div>
+      <div class="montagne montagne-2"></div>
+      <div class="montagne montagne-3"></div>
+      <div class="montagne montagne-4"></div>
+      <div class="soleil-container soleil-container-1">
+      </div>
+      <div class="soleil-container">
+        <div class="soleil"></div>
+      </div>
+      <div class="nuage"></div>
+      <div class="nuage nuage-1"></div>
+      <div class="soleil-container soleil-container-reflection">
+        <div class="soleil"></div>
+      </div>
+      <div class="lumiere"></div>
+      <div class="lumiere lumiere-1"></div>
+      <div class="lumiere lumiere-2"></div>
+      <div class="lumiere lumiere-3"></div>
+      <div class="lumiere lumiere-4"></div>
+      <div class="lumiere lumiere-5"></div>
+      <div class="lumiere lumiere-6"></div>
+      <div class="lumiere lumiere-7"></div>
+      <div class="mer"></div>
+      <div class="splash"></div>
+      <div class="splash delai-1"></div>
+      <div class="splash delai-2"></div>
+      <div class="splash splash-4 delai-2"></div>
+      <div class="splash splash-4 delai-3"></div>
+      <div class="splash splash-4 delai-4"></div>
+      <div class="splash splash-sol delai-3"></div>
+      <div class="splash splash-sol splash-4"></div>
+      <div class="splash splash-sol2 splash-5"></div>
+      <div class="splash2"></div>
+      <div class="splash3"></div>
+      <div class="splash delai-1"></div>
+      <div class="splash delai-2"></div>
+      <div class="splash splash-4 delai-2"></div>
+      <div class="splash splash-4 delai-3"></div>
+      <div class="splash splash-4 delai-4"></div>
+      <div class="splash splash-sol2 delai-3"></div>
+      <div class="splash splash-sol3 splash-4"></div>
+      <div class="splash splash-sol2 splash-5"></div>
+      <div class="nenuphar nenuphar-1"></div>
+      <div class="nenuphar nenuphar-2"></div>
+      <div class="nenuphar nenuphar-3"></div>
+      <div class="front">
+        <div class="sol"></div>
+        <div class="sol2"></div>
+        <div class="herbe"></div>
+        <div class="herbe herbe-1"></div>
+        <div class="herbe herbe-2"></div>
+        <div class="roseau"></div>
+        <div class="roseau roseau-1"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------Qui suis-je ?--------------------->
+  <section class="qui-suis-je" id="quisuisje">
+
+    <div class="content">
+      <div class="contentBx">
+        <h2 data-aos="fade-right" data-aos-duration="1000">Qui-suis-je ?</h2>
+        <h3 data-aos="fade-right" data-aos-duration="1200">Bienvenue sur mon CV interactif !</h3>
+        <p data-aos="fade-right" data-aos-duration="1400">Je me présente, je m'apelle <a
+            href="https://www.linkedin.com/in/jules-mesnil-2573871b9" target="_blank" class="jules">Jules <span>Mon
+              Linkedin</span></a>. <br>
+          Actuellement en première année de DUT Métiers de l'Internet et du Multimédia (MMI),
+          je suis passioné par le monde de l'audiovisuel et du webdesign.</p>
+        <a href="CV.pdf" target="_blank" class="cv" data-aos="fade-right" data-aos-duration="1600">Mon CV</a>
+      </div>
+    </div>
+    <img src="images/moi4.png" alt="" class="moi">
+    <img src="images/camera.png" alt="" class="elements element1" data-aos="fade-up-left" data-aos-duration="1500">
+    <img src="images/video-camera.png" alt="" class="elements element2" data-aos="fade-down-right"
+      data-aos-duration="1500">
+    <img src="images/web-design.png" alt="" class="elements element3" data-aos="fade-up-right" data-aos-duration="1500">
+
+    <div class="sol-inverse front"></div>
+    <div class="sol-inverse2 front"></div>
+    <div class="sol2-inverse front"></div>
+    <div class="splash4 onde"></div>
+    <div class="splash5 onde"></div>
+  </section>
+
+  <!-----------------------Mon Parcours--------------------->
+  <section class="parcours" id="parcours">
+    <div class="container">
+      <div class="content">
+        <h2 data-aos="fade-right" data-aos-duration="1000">Mon parcours</h2>
+      </div>
+      <!-------- Tabs ---------->
+      <div class="row">
+        <div class="parcours-tabs">
+          <span class="tab-item" data-target="formations" data-aos="fade-right"
+            data-aos-duration="1200">Formations</span>
+          <span class="tab-item active" data-target="experiences" data-aos="fade-left"
+            data-aos-duration="1200">Expériences</span>
+        </div>
+      </div>
+
+      <!------- Expériences -------->
+      <div class="row">
+        <div class="experiences tab-content active">
+          <div class="row">
+            <div class="timeline">
+              <div class="row">
+                <!-------- Timeline -------->
+                <div class="timeline-item">
+                  <div class="timeline-item-inner">
+                    <i class="fas fa-briefcase icon"></i>
+                    <span>Janvier 2021 - Présent</span>
+                    <h3>Chargé de communication et développeur front-end</h3>
+                    <h4>FuturaMMI</h4>
+                    <p>Création du site Web FuturaMMI dans le cadre du projet tutoré de première année de DUT MMI.
+                      Durant ce travail d'équipe, je me suis occupé de la partie communication et d'une partie du
+                      travail d'intégration. </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-inner ">
+                    <i class="fas fa-briefcase icon"></i>
+                    <span>Septembre 2020 - Présent</span>
+                    <h3>Equipier polyvalent</h3>
+                    <h4>McDonald's</h4>
+                    <p>- Réception et service client <br>
+                      - Préparation de commandes <br>
+                      - Maintenance des équipements et du matériel <br>
+                      - Etre polyvalent, rapide, efficace, autonome et à l'aise dans le travail en
+                      équipe
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-inner ">
+                    <i class="fas fa-briefcase icon"></i>
+                    <span>Décembre 2015</span>
+                    <h3>Assistant vétérinaire</h3>
+                    <h4>Clinique vétérinaire - Paris</h4>
+                    <p>Stage d'une semaine : <br>
+                      - Accueil et service client, gestion des stocks <br>
+                      - Assistance au vétérinaire pendant les opérations chirurgicales</p>
+                  </div>
+                </div>
+                <!------- Fin timeline -------->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------- Formations --------->
+      <div class="row"></div>
+      <div class="formations tab-content">
+        <div class="row">
+          <div class="timeline">
+            <div class="row">
+              <!-------- Timeline -------->
+              <div class="timeline-item">
+                <div class="timeline-item-inner ">
+                  <i class="fas fa-graduation-cap icon"></i>
+                  <span>2020 - Présent</span>
+                  <h3>DUT Métiers du Multimédia et de l'Internet (MMI)</h3>
+                  <h4>Université Gustave Eiffel - Champs-Sur-Marne</h4>
+                  <p>- Productions Audiovisuelles : Tournage d'interviews, montage vidéo <br>
+                    - Création et Web Design: HTML5, CSS3, Javascript, JQuery, PHP, SQL <br>
+                    - Expression artistique <br>
+                    - Connaissances en communication et en marketing</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-item-inner ">
+                  <i class="fas fa-graduation-cap icon"></i>
+                  <span>2019 - 2020</span>
+                  <h3>Licence de Cinéma et d'Audiovisuel</h3>
+                  <h4>Université Sorbonne Nouvelle - Paris III</h4>
+                  <p>- Productions audiovisuelles : montage vidéo, bonnes connaissances
+                    cinématographiques. <br>
+                    - Première année validée</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-item-inner ">
+                  <i class="fas fa-graduation-cap icon"></i>
+                  <span>2017 - 2019</span>
+                  <h3>Baccalauréat Scientifique</h3>
+                  <h4>Lycée Marie Laurencin - Mennecy</h4>
+                  <p>- Mention Assez Bien</p>
+                </div>
+              </div>
+              <!------- Fin timeline -------->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-----------------------Compétences--------------------->
+  <section class="competences" id="competences">
+    <div class="content">
+      <h2 data-aos="fade-right" data-aos-duration="1000">Mes compétences</h2>
+    </div>
+    <div class="sectioncompetences">
+      <div class="wrapper">
+        <div class="carte html">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">HTML</div>
+        </div>
+        <div class="carte css">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">CSS</div>
+        </div>
+        <div class="carte javascript">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">JavaScript</div>
+        </div>
+        <div class="carte sql">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">SQL</div>
+        </div>
+        <div class="carte php">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">PHP</div>
+        </div>
+        <div class="carte photoshop">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">Photoshop</div>
+        </div>
+        <div class="carte premierepro">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">Premiere Pro</div>
+        </div>
+        <div class="carte indesign">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">InDesign</div>
+        </div>
+        <div class="carte lightroom">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">Lightroom</div>
+        </div>
+        <div class="carte figma">
+          <div class="cercle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="texte">Figma</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------Intérêts--------------------->
+  <section class="interets" id="interets">
+    <h2 class="content" data-aos="fade-right" data-aos-duration="1000">Centres d'intérêt</h2>
+    <div class="wraper projets2 wrapepr-pres">
+      <div class="grille projets2">
+        <div class="partie interet" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <img src="images/video-camera.png" alt="" class="png" data-aos="fade-up" data-aos-duration="1500">
+          <h3>Audiovisuel</h3>
+        </div>
+        <div class="partie interet" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+          <img src="images/camera.png" alt="" class="png" data-aos="fade-up" data-aos-duration="1500">
+          <h3>Photographie</h3>
+        </div>
+        <div class="partie interet" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
+          <img src="images/web-design.png" alt="" class="png" data-aos="fade-up" data-aos-duration="1500">
+          <h3>Web Design</h3>
+        </div>
+        <div class="partie interet" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="400">
+          <img src="images/drum-set.png" alt="" class="png" data-aos="fade-up" data-aos-duration="1500">
+          <h3>Musique</h3>
+        </div>
+        <div class="partie interet" data-aos="fade-up" data-aos-duration="1800" data-aos-delay="500">
+          <img src="images/skateboard.png" alt="" class="png" data-aos="fade-up" data-aos-duration="1500">
+          <h3>Sport</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------Mes Projets--------------------->
+  <section class="projet" id="projets">
+    <h2 class="titre">Mes Projets</h2>
+    <div class="projets">
+      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <div class="contenu">
+          <h2 class="title">FuturaMMI</h2>
+          <p class="copy">FuturaMMi est un site web réalisé dans le cadre du projet tutoré de première année de DUT MMI.
+            Ce site permet aux étudiants et au lycéens de découvrir les métiers accessibles après le DUT MMI de façon
+            ludique.</p>
+          <button class="btn"><a href="" target="_blank"> Voir le site</a></button>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+        <div class="contenu">
+          <h2 class="title">Cover - Travis Scott</h2>
+          <p class="copy">Dans le cadre du module d'esthétique et d'expression artistique du DUT MMI de
+            Champs-Sur-Marne,
+            nous devions créer une pochette d'album illustrant une chanson que nous voulions faire découvrir à notre
+            professeur. Cette pochette a été entièrement reéalisée sur Photoshop.</p>
+          <button class="btn"><a href="images/Cover_Travis_Scott.jpg" target="_blank"> Voir la cover</a></button>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
+        <div class="contenu">
+          <h2 class="title">Portrait Chinois</h2>
+          <p class="copy">Ce site a été réalisé en binôme dans le cadre du "projet blitz" du module d'intégration web.
+            En l'espace de 24h, nous devions réalisé un site présentant un aspect de notre personnalité sous la forme
+            d'un portrait chinois tout en devant être raccord au thème de notre groupe : la BD.</p>
+          <button class="btn"><a href="https://elcurdente.github.io/" target="_blank"> Voir le site</a></button>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="400">
+        <div class="contenu">
+          <h2 class="title">Montage Harry Potter</h2>
+          <p class="copy">Dans le cadre du module de production audiovisuelle du DUT MMI, nous devions réalisé un
+            montage sur Première Pro qui devait illustrer une problématique à partir des 2 derniers films de la saga.
+          </p>
+          <button class="btn"><a href="https://youtu.be/_M3Q2hIrrO0" target="_blank">Voir la vidéo</a> </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------Contact--------------------->
+  <section class="contact" id="contact">
+    <h2 class="titre">Me contacter</h2>
+    <div class="section-contact">
+      <div class="container-contact">
+        <div class="content-contact">
+          <div class="image-box">
+            <img src="images/message.png" alt="">
+          </div>
+          <form action="#">
+            <div class="topic">Envoyez moi un message</div>
+            <div class="input-box">
+              <input type="text" required>
+              <label for="">Entrez votre nom</label>
+            </div>
+            <div class="input-box">
+              <input type="text" required>
+              <label for="">Entrez votre email</label>
+            </div>
+            <div class="message-box">
+              <textarea></textarea>
+              <label for="">Entrez votre message</label>
+            </div>
+            <div class="input-box">
+              <input type="submit" value="Envoyer">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <!-- <p>Copyright &copy; Jules Mesnil 2021</p> -->
+    </footer>
+  </section>
+
+  <!-------- Animation scroll -------->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!------- Effet menu header au scroll -------->
+  <script type="text/javascript">
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+    function toggle() {
+      var header = document.querySelector("header");
+      header.classList.toggle("active");
+    }
+  </script>
+
+  <!---------- Mon Parcours ----------->
+  <script>
+    (() => {
+      const SectionParcours = document.querySelector(".parcours"),
+        tabsContainer = document.querySelector(".parcours-tabs");
+
+      tabsContainer.addEventListener("click", (event) => {
+        if (event.target.classList.contains("tab-item") &&
+          !event.target.classList.contains("active")) {
+          const target = "." + event.target.getAttribute("data-target");
+          // On desactive les 'tab-item' actifs
+          tabsContainer.querySelector(".active").classList.remove("active");
+          // On active les nouveaux 'tab-item'
+          event.target.classList.add("active");
+          // On desactive les 'tab-content' actifs
+          SectionParcours.querySelector(".tab-content.active").classList.remove("active");
+          // On active les nouveaux 'tab-content'
+          SectionParcours.querySelector(target).classList.add("active");
+        }
+      })
+    })();
+  </script>
+
+  <!------- Mes Compétences ------->
+  <script>
+    $(document).ready(function () {
+      $(window).on("scroll", function () {
+        //affiche chaque valeur de scroll dans la console du navigateur
+        console.log($(this).scrollTop())
+        if ($(this).scrollTop() >= $(".competences").offset().top) {
+          let options = {
+            startAngle: -1.55,
+            size: 150,
+            value: 0.85,
+            fill: {
+              color: "#3b1895"
+            }
+          }
+          $(".cercle .bar").circleProgress(options).on('circle-animation-progress',
+            function (event, progress, stepValue) {
+              $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+            });
+          $(".html .bar").circleProgress({
+            value: 0.90,
+          });
+          $(".css .bar").circleProgress({
+            value: 0.85,
+          });
+          $(".javascript .bar").circleProgress({
+            value: 0.50,
+          });
+          $(".sql .bar").circleProgress({
+            value: 0.30,
+          });
+          $(".php .bar").circleProgress({
+            value: 0.30,
+          });
+          $(".photoshop .bar").circleProgress({
+            value: 0.80,
+          });
+          $(".premierepro .bar").circleProgress({
+            value: 0.90,
+          });
+          $(".indesign .bar").circleProgress({
+            value: 0.75,
+          });
+          $(".lightroom .bar").circleProgress({
+            value: 0.85,
+          });
+          $(".figma .bar").circleProgress({
+            value: 0.90,
+          });
+
+        }
+      });
+    });
+
+    // Section Contact 
+  </script>
+</body>
+
+</html>
